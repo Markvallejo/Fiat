@@ -1,0 +1,262 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    background: rgb(66, 110, 233);  ;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.nav-item{
+    font-weight: bold;
+    font-size: 20px;
+}
+.principal{
+    display: block;
+
+}
+hr{
+    height: 2px;
+    background: black;
+}
+.cotizador{
+    color: white;
+    text-align: center;
+}
+.description{
+ font-weight: bold;
+ font-size: 25px;
+ text-align: center;
+}
+
+.text-elegir{
+    font-weight: bold;
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times;
+    text-align: center;
+    color: white;
+}
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white; 
+    position: relative;  
+    margin-top: 50px;
+
+}
+.auto{
+    margin-top: 100px;
+    margin-bottom: -100px;
+    width: 350px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+}
+.cotizar{
+    background: white;
+    margin-top: 100px;
+    width: 80%;
+    position: relative;
+    left: 150px;
+}
+.formulario{
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.inicial{
+ margin-top: 130px;
+ 
+}
+.forma{
+    border: solid red 1px;
+}
+
+.datos{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.etiqueta{
+    font-size: 12px;
+    color: black;
+    
+}
+
+.contacto:hover {
+ background: red;
+ color: white;
+}
+/* .pago{
+   margin-right: 50px;
+   margin-left: 50px;
+} */
+.terminos{
+    position: relative;
+    padding-bottom: 50px;
+}
+.btenvio{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+.btenvio:hover{
+ background: red;
+ color: white;
+}
+
+footer{
+    height: 20px;
+}
+
+@media (max-width: 320px) { 
+    .cotizador{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .description{
+     font-weight: bold;
+     font-size: 19px;
+     text-align: center;
+    }
+
+    .text-elegir{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .auto{
+        margin-top: 60px;
+        margin-bottom: -100px;
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        z-index: 1;
+    }
+    .cotizar{
+ 
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .formulario{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .btenvio{
+        padding: 5px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        right: 230px;
+        bottom: -30px;
+    }
+    .contacto{
+        font-size: 9px;
+    }
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+ @media (max-width: 576px) { 
+    .cotizador{
+        color: white;
+        text-align: center;
+        font-size: 15px;
+    }
+    .description{
+     font-weight: bold;
+     font-size: 19px;
+     text-align: center;
+    }
+
+    .text-elegir{
+        font-weight: bold;
+        font-size: 30px;
+        text-align: center;
+        color: white;
+    }
+    .auto{
+        margin-top: 60px;
+        margin-bottom: -100px;
+        width: 250px;
+        height: 200px;
+        position: absolute;
+        z-index: 1;
+    }
+    .cotizar{
+ 
+        position: absolute;
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .formulario{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .btenvio{
+        padding: 2px;
+        padding-left: 20px;
+        padding-right: 20px;
+        position: absolute;
+        right: 90px;
+        bottom: -30px;
+        top: 30px;
+    }
+    .row{
+        font-size: 10px;
+    }
+
+    .datos{
+        color: red;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .inicial{
+     margin-top: 30px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (width: 768px) { 
+ .nav-item {
+     font-size: 18px;
+ }
+ .cotizar{
+    background: white;
+    margin-top: 100px;
+    width: 95%;
+    position: relative;
+    left: 20px;
+
+ }
+.etiqueta{
+    font-size: 10px;
+   
+}
+
+.formulario{
+    margin-left: 80px;
+    margin-right: 80px;
+}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) { 
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (width: 1024px) { 
+
+ }
