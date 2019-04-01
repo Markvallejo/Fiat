@@ -15,12 +15,8 @@ body{
 }
 .principal{
     display: block;
+}
 
-}
-hr{
-    height: 2px;
-    background: black;
-}
 .cotizador{
     color: white;
     text-align: center;
@@ -120,7 +116,7 @@ hr{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    color: rgb(24, 24, 190);
+    color: #007bff;
     padding-left: 30px;
     padding-right: 30px;
 }
