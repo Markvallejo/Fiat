@@ -251,7 +251,7 @@ footer{
         text-align: center;
         font-size: 14px;
     }
-}
+} 
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
@@ -263,12 +263,11 @@ footer{
     margin-top: 100px;
     width: 95%;
     position: relative;
-    left: 20px;
+    left: 30px;
 
  }
 .etiqueta{
-    font-size: 15px;
-   
+    font-size: 15px
 }
 
 .formulario{
