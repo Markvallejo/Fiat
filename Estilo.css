@@ -254,7 +254,7 @@ footer{
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media (width: 768px) { 
+@media (max-width: 768px) { 
  .nav-item {
      font-size: 18px;
  }
