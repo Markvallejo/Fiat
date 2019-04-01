@@ -1,6 +1,9 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
-    background: rgb(66, 110, 233);  ;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman'; */
+    background: rgb(66, 110, 233);
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 400;
 }
 .logo{
     width: 70px;
@@ -75,7 +78,9 @@ hr{
     color: red;
     font-weight: bold;
     font-size: 40px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
 }
 
 .etiqueta{
