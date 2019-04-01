@@ -112,6 +112,11 @@ hr{
 .btenvio:hover{
  background: red;
  color: white;
+ outline: none;
+}
+
+.success{
+    background: rgb(5, 189, 5);
 }
 
 footer{
