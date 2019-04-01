@@ -116,6 +116,15 @@ hr{
  outline: none;
 }
 
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(24, 24, 190);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
 .success{
     background: rgb(5, 189, 5);
 }
@@ -167,10 +176,15 @@ footer{
         padding-left: 20px;
         padding-right: 20px;
         position: absolute;
-        right: 230px;
+        left: 90px;
         bottom: -30px;
     }
     .contacto{
+        font-size: 9px;
+    }
+    .final{
+        display: block;
+        text-align: center;
         font-size: 9px;
     }
 }
@@ -219,7 +233,7 @@ footer{
         padding-left: 20px;
         padding-right: 20px;
         position: absolute;
-        right: 90px;
+        right: 230px;
         bottom: -30px;
         top: 30px;
     }
@@ -235,6 +249,11 @@ footer{
 
     .inicial{
      margin-top: 30px;
+    }
+    .final{
+        display: block;
+        text-align: center;
+        font-size: 14px;
     }
 }
 

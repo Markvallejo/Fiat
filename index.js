@@ -12,7 +12,6 @@ const $credito = document.getElementById('credito')
 
 const $mover = document.getElementById('navbarSupportedContent')
 
-
  $menu.addEventListener('click', (event) =>{  
    $mover.classList.remove('show');
  });
@@ -66,9 +65,6 @@ $btambos.addEventListener('click', (event) => {
       $bttelefono.classList.remove('success')
       $btemail.classList.remove('success')
    }
-   
-   // $btemail.classList.toggle('success')
-   // $bttelefono.classList.toggle('success')
   
 })
 
