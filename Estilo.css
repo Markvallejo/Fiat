@@ -89,10 +89,10 @@ hr{
     
 }
 
-.contacto:hover {
+/* .contacto:hover {
  background: red;
  color: white;
-}
+} */
 /* .pago{
    margin-right: 50px;
    margin-left: 50px;
@@ -109,11 +109,11 @@ hr{
     right: 0px;
     bottom: 10px;
 }
-/* .btenvio:hover{
+.btenvio:hover{
  background: red;
  color: white;
  outline: none;
-} */
+}
 
 .success{
     background: rgb(5, 189, 5);
