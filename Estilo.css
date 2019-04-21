@@ -139,8 +139,7 @@ p{
 .segunda{
     display: flex;
     align-items: center;
-    justify-content: center;
-   
+    justify-content: center; 
 }
     
 .cotizar{
@@ -156,6 +155,7 @@ p{
     letter-spacing: 2.5px;
     margin-left: 80px;
     margin-right: 80px;
+   
 }
 .inicial{
  margin-top: 55px;
@@ -304,7 +304,7 @@ footer{
 }
 
 /* Large devices (desktops, 992px and up) */
-@media (max-width: 992px) {   
+@media (max-width: 1024px) {   
 .navbar-light .navbar-nav .nav-link {
     padding: 5px 30px;
 }
@@ -547,6 +547,7 @@ width: 100%;
 .formulario{
 margin-left: 16px;
 margin-right: 16px;
+width: 90%;
 }
 
 #modelo{
@@ -579,17 +580,17 @@ align-items: center;
 }
 
 #bttelefono{
-width: 143px; 
+width: 123px; 
 font-size: 8px;
 }
 
 #btemail{
-width: 143px;
+width: 124px;
 font-size: 8px;
-margin-left: -10px;
+margin-left: -12px;
 }
 #btambos{
-width: 143px;
+width: 124px;
 font-size: 8px;
 margin-left: -21px;
 }
@@ -600,12 +601,12 @@ margin-left: 0;
 }
 
 #contado{
-width: 215px;
+width: 185px;
 margin-left: -15px;
 }
 
 #credito{
-width: 215px;
+width: 185px;
 margin-left: -16px;
 }
 
@@ -618,7 +619,7 @@ width: 100px;
 height: 35px;
 position: absolute;
 text-align: center;
-left: 150px;
+left: 130px;
 bottom: 20px;
 }
 .checks{
@@ -626,7 +627,161 @@ letter-spacing: 0;
 font-size: 12px;
 }
 }
-
+@media (max-width: 375px) { 
+    #header{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: auto;
+        position: relative;
+    }
+    
+    .logo{
+        width: 48px;
+        height: 48px;
+        position: absolute;
+        top: 10px;
+        left: 0px;
+        margin-bottom: 12px;
+    }
+    .menus{
+        display: none;
+    }
+    
+    #button{
+        border-style: none;
+        outline: none;
+        height: auto;
+    }
+    
+    .navbar-light .navbar-nav .nav-link {
+        color: black;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        padding: .4rem .8rem;
+        font-size: 10px;
+    }
+    
+    .navbar-collapse{
+        margin-top: 20px;
+    }
+    
+    .description{
+        font-size: 10px;
+    }
+    .line{
+            display: none;
+    }
+    
+    .text-elegir{
+        font-size: 45px;
+        margin-top: -10px;
+    }
+    
+    .auto{
+        margin-top: 0;
+        width: 200px;
+        height: 120px;
+    }
+    
+    .primera{
+        background-size: 1024px;
+    }
+    
+    .cotizar{
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .formulario{
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+    
+    #modelo{
+    margin-top: -10px;
+    margin-bottom: -60px;
+    }
+    
+    .etiqueta{
+        letter-spacing: 3px;
+    }
+    
+    .datos{
+        font-size: 30px;
+    }
+    .line-datos{
+        display: none;
+    }
+    .forma{
+        margin-top: 0px;
+    }
+    .mb-4{
+        margin-bottom: 0 !important;
+    }
+    
+    .contactar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    
+    #bttelefono{
+        width: 115px; 
+        font-size: 8px;
+        }
+        
+        #btemail{
+            width: 111px;
+            font-size: 8px;
+            margin-left: -8px;
+        }
+        #btambos{
+            width: 111px;
+            font-size: 8px;
+            margin-left: -19px;
+        }
+    
+        .pago{
+        margin-right: 0;
+        margin-left: 0;
+        }
+        
+        #contado{
+        width: 168px;
+        margin-left: -15px !important;
+        }
+        
+        #credito{
+            width: 168px;
+            margin-left: -16px;
+        }
+    
+        .terminos{
+        display: block;
+    }
+    /* .terminos{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    .btenvio{
+        width: 100px;
+        height: 35px;
+        position: absolute;
+        text-align: center;
+        left: 110px;
+        bottom: 20px;
+    }
+    .checks{
+        letter-spacing: 0;
+        font-size: 12px;
+    }
+    
+}
 @media (max-width: 320px) { 
     #header{
         width: 100%;
@@ -661,7 +816,7 @@ font-size: 12px;
         align-content: center;
         justify-content: space-between;
         padding: .4rem .8rem;
-        font-size: 12px;
+        font-size: 10px;
     }
     
     .navbar-collapse{
@@ -771,6 +926,7 @@ font-size: 12px;
         text-align: center;
         left: 85px;
         bottom: 20px;
+        font-size: 10px;
     }
     .checks{
         letter-spacing: 0;
