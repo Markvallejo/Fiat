@@ -160,10 +160,7 @@ p{
 .inicial{
  margin-top: 55px;
 }
-.indice{
 
-
-}
 .forma{
     border: solid red 1px;
     border-radius: 0;
@@ -191,18 +188,23 @@ p{
     font-size: 12px;
 }
 
-.contacto:hover {
- background: red;
- color: white;
-}
-
 #bttelefono{
    width: 250px;
+   background: url('images/telefono.png');
+   background-position-x: 60px;
+   background-position-y: 10px;
+   background-size: 12px;
+   background-repeat: no-repeat;
 }
 
 #btemail{
     width: 250px;
     margin-left: -7px;
+    background: url('images/mail.png');
+    background-position-x: 60px;
+    background-position-y: 10px;
+    background-size: 18px;
+    background-repeat: no-repeat;
 }
 
 #btambos{
@@ -259,7 +261,7 @@ p{
 }
 
 .success{
-    background: red;
+    background: red !important;
     color: white;
 }
 
@@ -339,16 +341,18 @@ footer{
 }
 #bttelefono{
     width: 191px;
+    background-position-x: 40px;
  }
  
  #btemail{
      width: 191px;
-     margin-left: -10px;
+     background-position-x: 40px;
+     margin-left: -11px;
  }
  
  #btambos{
-     width: 191px;
-     margin-left: -21px; 
+     width: 192px;
+     margin-left: -22px; 
  }
  .titulo{
     font-size: 10px;
@@ -396,18 +400,20 @@ footer{
 }
 #bttelefono{
     width: 191px;
-    }
-    
-    #btemail{
-        width: 191px;
-        margin-left: -10px;
-    }
-    
-    #btambos{
-        width: 191px;
-        margin-left: -21px; 
-    }
-    .titulo{
+    background-position-x: 40px;
+}
+
+#btemail{
+    width: 191px;
+    background-position-x: 40px;
+    margin-left: -11px;
+}
+
+#btambos{
+    width: 191px;
+    margin-left: -22px; 
+}
+.titulo{
     font-size: 10px;
 }
 .etiqueta{
@@ -581,18 +587,29 @@ align-items: center;
 
 #bttelefono{
 width: 123px; 
-font-size: 8px;
+height: 50px;
+font-size: 9px;
+padding-top: 20px;
+background-position-x: 55px;
+background-position-y: 5px;
+background-size: 10px;
 }
 
 #btemail{
 width: 124px;
-font-size: 8px;
+height: 50px;
+font-size: 9px;
+padding-top: 20px;
+background-position-x: 50px;
+background-position-y: 5px;
+background-size: 15px;
 margin-left: -12px;
 }
 #btambos{
 width: 124px;
-font-size: 8px;
-margin-left: -21px;
+height: 50px;
+font-size: 9px;
+margin-left: -22px;
 }
 
 .pago{
@@ -731,37 +748,49 @@ font-size: 12px;
     
     #bttelefono{
         width: 115px; 
-        font-size: 8px;
+        font-size: 9px;
+        height: 50px;
+        padding-top: 20px;
+        background-position-x: 50px;
+        background-position-y: 5px;
+        background-size: 10px;
         }
         
-        #btemail{
-            width: 111px;
-            font-size: 8px;
-            margin-left: -8px;
-        }
-        #btambos{
-            width: 111px;
-            font-size: 8px;
-            margin-left: -19px;
-        }
+    #btemail{
+        width: 111px;
+        height: 50px;
+        font-size: 9px;
+        padding-top: 20px;
+        margin-left: -11px;
+        background-position-x: 45px;
+        background-position-y: 5px;
+        background-size: 15px;
+        margin-left: -8px;
+    }
+    #btambos{
+        width: 111px;
+        height: 50px;
+        font-size: 9px;
+        margin-left: -19px;
+    }
+
+    .pago{
+    margin-right: 0;
+    margin-left: 0;
+    }
     
-        .pago{
-        margin-right: 0;
-        margin-left: 0;
-        }
-        
-        #contado{
+    #contado{
+    width: 168px;
+    margin-left: -15px !important;
+    }
+    
+    #credito{
         width: 168px;
-        margin-left: -15px !important;
-        }
-        
-        #credito{
-            width: 168px;
-            margin-left: -16px;
-        }
-    
-        .terminos{
-        display: block;
+        margin-left: -16px;
+    }
+
+    .terminos{
+    display: block;
     }
     /* .terminos{
         display: flex;
@@ -886,18 +915,29 @@ font-size: 12px;
     
     #bttelefono{
         width: 95px; 
-        font-size: 8px;
+        height: 50px;
+        font-size: 9px;
+        padding-top: 20px;
+        background-position-x: 40px;
+        background-position-y: 5px;
+        background-size: 10px;
         }
         
         #btemail{
             width: 95px;
-            font-size: 8px;
-            margin-left: -10px;
+            height: 50px;
+            font-size: 9px;
+            padding-top: 20px;
+            margin-left: -11px;
+            background-position-x: 40px;
+            background-position-y: 5px;
+            background-size: 15px;
         }
         #btambos{
             width: 95px;
-            font-size: 8px;
-            margin-left: -21px;
+            height: 50px;
+            font-size: 9px;
+            margin-left: -22px;
         }
     
         .pago{

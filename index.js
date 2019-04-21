@@ -38,6 +38,7 @@ $enviar.addEventListener('click', (event) =>{
 
 $bttelefono.addEventListener('click', (event) => {
    $bttelefono.classList.toggle('success')
+   $bttelefono.classList.remove('bttelefono')
    select()
 })
 
@@ -49,6 +50,7 @@ $btemail.addEventListener('click', (event) => {
 function select(){
    if($bttelefono.classList.contains('success') && $btemail.classList.contains('success')){
       $btambos.classList.add('success')
+
    }
    else{
       $btambos.classList.remove('success')
