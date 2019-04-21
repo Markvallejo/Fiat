@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Formulario Cotizacion</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i">
+    <link rel="stylesheet" href=" https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i,900,900i|Playfair+Display:400,400i,700,700i,900,900i">
     <link rel="icon" type="images/png" href="images/logo-fiat.png">
     <link rel="stylesheet" href="Estilo.css">
 </head>
@@ -17,276 +17,310 @@
                           <img class="rounded logo" src="images/logo-fiat.png" alt="Logo Fiat"> 
                           
                      </a>
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <button id="button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                      </button>
                      
                      <div class="collapse navbar-collapse ms-navbar-collapse" id="navbarSupportedContent">
-                          <ul class="navbar-nav ml-auto" >
-                               <li class="nav-item navbar-collapse" >
-                                    <a class="nav-link" id="menu" href="#principal" >Modelos</a>
+                          <ul class="navbar-nav m-auto" >
+                               <li class="nav-item" >
+                                    <a class="nav-link" id="menu" href="#principal" >MODELOS</a>
                                </li>
                                <li class="nav-item">
-                                    <a class="nav-link" id="menu1" href="#principal">Prueba de Manejo</a>
+                                    <a class="nav-link" id="menu1" href="#principal">PRUEBA DE MANEJO</a>
                                </li>
                                <li class="nav-item">
-                                    <a class="nav-link" id="menu2" href="#cotizar">Cotizar</a>
+                                    <a class="nav-link" id="menu2" href="#cotizar">COTIZAR</a>
                                </li>
                                <li class="nav-item">
-                                    <a class="nav-link" id="menu3" href="#principal">Promociones</a>
+                                    <a class="nav-link" id="menu3" href="#principal">PROMOCIONES</a>
                                </li>
                                <li class="nav-item">
-                                    <a class="nav-link" id="menu4" href="#principal">Distribuidores</a>
+                                    <a class="nav-link" id="menu4" href="#principal">DISTRIBUIDORES</a>
                                </li>
+                              
                           </ul>
+                          <li class="nav-item nav-link menus">
+                            <div>
+                                <img src="images/menu.png" height="18px" >
+                            </div>
+                           </li>
                      </div>
                 </div>
            </nav>
     
-<section class="principal" id="principal">
-    <br>
-    <div class="cotizador"> Cotizador</div>
+
+<section class="primera">
+
+
+    <section class="principal" id="principal">
+        <br>
+        <div class="cotizador"> Cotizador</div>
+        
+        <h3 class="description" >
+            <span class="line">  </span>
+            Citadino, Aventurero, Deportivo
+            <span class="line">  </span>
+        </h3>
+       
+        
+        <!-- <div class="description"> Citadino, Aventurero, Deportivo </div>  -->
     
-    <div class="description"> Citadino, Aventurero, Deportivo </div> 
-
-    <div class="text-elegir">Elige el tuyo</div>
-
-    <div class="contenedor">
-        <img src="images/fiat.png" alt="" class="auto">
-    </div>
-
-</section>
-
-<section class="cotizar">
-    <div class="formulario" id="cotizar" >
-        <div class="row inicial">
-            <div class="col-lg-6 col-md-6 col-ms-12 inicial">
-                <form>
-                    <div class="form-group">
-                        <label class="etiqueta" for="formGroupExampleInput"> MODELO </label>
-                        <select class=" etiqueta custom-select custom-select-lg mb-3 forma">
-                                <option selected>SELECCIONA</option>
-                                <option value="1">MODELO 1</option>
-                                <option value="2">MODELO 2</option>
-                                <option value="3">MODELO 3</option>
-                        </select>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-ms-12 inicial">
-                        <form>
-                            <div class="form-group">
-                                <label class="etiqueta" for="formGroupExampleInput"> VERSION </label>
-                                <select  class="etiqueta custom-select custom-select-lg mb-3 forma">
-                                        <option selected>SELECCIONA</option>
-                                        <option value="1">VERSION 0.1</option>
-                                        <option value="2">VERSION 0.2</option>
-                                        <option value="3">VERSION 0.3</option>
-                                </select>
-                            </div>
-                </div>
+        <div class="text-elegir">Elige el tuyo</div>
+    
+        <div class="contenedor">
+            <img src="images/fiat.png" alt="" class="auto">
         </div>
-        <div class="row">
-                <div class="col-lg-6 col-md-6 col-ms-12 ">
+    
+    </section>
+    
+
+<section class="segunda">   
+    <section class="cotizar">
+        <div class="formulario" id="cotizar" >
+            <div class="row mb-1 inicial">
+                <div class="col-lg-6 col-md-6 col-ms-12 inicial" id="modelo">
                     <form>
                         <div class="form-group">
-                            <label class="etiqueta" for="formGroupExampleInput"> ESTADO </label>
-                            <select class="etiqueta custom-select custom-select-lg mb-3 forma">
+                            <label class="titulo ml-1" for="formGroupExampleInput"> MODELO </label>
+                            <select class=" etiqueta custom-select custom-select-lg mb-3 forma indice">
                                     <option selected>SELECCIONA</option>
-                                    <option value="1">MEXICO</option>
-                                    <option value="2">JALISCO </option>
-                                    <option value="3">COAHUILA </option>
+                                    <option value="1">MODELO 1</option>
+                                    <option value="2">MODELO 2</option>
+                                    <option value="3">MODELO 3</option>
                             </select>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 col-ms-12 ">
+                    <div class="col-lg-6 col-md-6 col-ms-12 inicial">
                             <form>
                                 <div class="form-group">
-                                    <label class="etiqueta" for="formGroupExampleInput"> DISTRIBUIDOR </label>
-                                    <select class="etiqueta custom-select custom-select-lg mb-3 forma">
+                                    <label class="titulo ml-1" for="formGroupExampleInput"> VERSION </label>
+                                    <select  class="etiqueta custom-select custom-select-lg mb-3 forma">
                                             <option selected>SELECCIONA</option>
-                                            <option value="1">DISTRIBUIDOR 1</option>
-                                            <option value="2">DISTRIBUIDOR 2</option>
-                                            <option value="3">DISTRIBUIDOR 3</option>
+                                            <option value="1">VERSION 0.1</option>
+                                            <option value="2">VERSION 0.2</option>
+                                            <option value="3">VERSION 0.3</option>
                                     </select>
                                 </div>
                     </div>
             </div>
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <span class="datos text-center" >Datos Personales</span>
-                    <p>ESCRIBE TUS DATOS PERSONALES</p>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-ms-12">
-                    <form>
-                        <div class="form-group">
-                            <label class="etiqueta" for="formGroupExampleInput"> NOMBRE (S) </label>
-                            <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU NOMBRE">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-lg-6 col-md-6 col-ms-12">
+            <div class="row mb-1">
+                    <div class="col-lg-6 col-md-6 col-ms-12">
                         <form>
                             <div class="form-group">
-                                <label class="etiqueta" for="formGroupExampleInput"> APELLIDO PATERNO </label>
-                                <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU APELLIDO">
+                                <label class="titulo ml-1"  for="formGroupExampleInput"> ESTADO </label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma">
+                                        <option selected>SELECCIONA</option>
+                                        <option value="1">MEXICO</option>
+                                        <option value="2">JALISCO </option>
+                                        <option value="3">COAHUILA </option>
+                                </select>
                             </div>
-                        </form>
-                </div>
-                <div class="col-lg-6 col-md-6 col-ms-12">
-                        <form>
-                            <div class="form-group">
-                                <label class="etiqueta" for="formGroupExampleInput"> APELLIDO MATERNO </label>
-                                <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU APELLIDO">
-                            </div>
-                        </form>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-ms-12">
-                    <form>
-                        <div class="form-group">
-                            <label class="etiqueta" for="formGroupExampleInput"> EMAIL </label>
-                            <input type="email" class="etiqueta form-control forma"  placeholder="ESCRIBE TU CORREO">
                         </div>
-                    </form>
-                </div>
-                <div class="col-lg-6 col-md-6 col-ms-12">
-                    <form>
-                        <div class="form-group">
-                            <label class="etiqueta" for="formGroupExampleInput"> TELEFONO </label>
-                            <input type="email" class="etiqueta form-control forma"  placeholder="TELEFONO">
+                        <div class="col-lg-6 col-md-6 col-ms-12 ">
+                                <form>
+                                    <div class="form-group">
+                                        <label class="titulo ml-1" for="formGroupExampleInput"> DISTRIBUIDOR </label>
+                                        <select class="etiqueta custom-select custom-select-lg mb-3 forma">
+                                                <option selected>SELECCIONA</option>
+                                                <option value="1">DISTRIBUIDOR 1</option>
+                                                <option value="2">DISTRIBUIDOR 2</option>
+                                                <option value="3">DISTRIBUIDOR 3</option>
+                                        </select>
+                                    </div>
                         </div>
-                    </form>
                 </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-ms-12 text-center">
-                    <label class="etiqueta " for="formGroupExampleInput"> DESEO SER CONTACTADO POR </label>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-4 pr-0">
-                    <form>
-                        <div class="form-group">
-                            <input type="button" id="bttelefono" class="etiqueta bttext form-control forma text-center contacto"  value=" 📞    TELEFONO">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-4">
-                        <form>
-                            <div class="form-group">
-                                <input type="button" id="btemail" class="etiqueta form-control forma text-center contacto" value="✉️ EMAIL">
-                            </div>
-                        </form>
-                </div>
-                <div class="col-4">
-                        <form>
-                            <div class="form-group">
-                                <input type="button" id="btambos" class="etiqueta form-control forma text-center contacto" value="AMBOS">
-                            </div>
-                        </form>
-                </div>
-            </div>
-
-            <div class="row mb-4 mt-4">
+                <div class="row mb-4">
                     <div class="col-12 text-center">
-                        <span class="datos text-center" >Forma de Pago</span>
-                        <p>PERSONALIZA TU COTIZACION</p>
+                        <h3 class="datos text-center">
+                            <span class="line-datos"> </span>
+                                Datos Personales 
+                            <span class="line-datos"> </span> 
+                            
+                        </h3>
+                        <p>ESCRIBE TUS DATOS PERSONALES</p>
                     </div>
-            </div>
-            
-            <div class="row pago">
-
-                    <div class="col-12 text-center">
-                            <form>
-                                <div class="form-group" >
-                                    <label class="etiqueta" for="formGroupExampleInput"> ELIGE TU FORMA DE PAGO</label>
-                                </div>
-                            </form>
-                    </div>
-
-                    <div class="col-6">
+                </div>
+    
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
                         <form>
-                            <div class="form-group" >
-                                <input type="button" id="contado" class="etiqueta form-control forma text-center contacto" value=" CONTADO">
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput"> NOMBRE (S) </label>
+                                <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU NOMBRE">
                             </div>
                         </form>
                     </div>
-                    <div class="col-6">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
                             <form>
                                 <div class="form-group">
-                                    
-                                    <input type="button" id="credito" class="etiqueta form-control forma text-center contacto" value="CREDITO">
+                                    <label class="titulo ml-1" for="formGroupExampleInput"> APELLIDO PATERNO </label>
+                                    <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU APELLIDO">
                                 </div>
                             </form>
                     </div>
-            </div>
-            <div class="row pago">
-                 <div class="col-lg-6 col-md-6 col-ms-12">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                            <form>
+                                <div class="form-group">
+                                    <label class="titulo ml-1" for="formGroupExampleInput"> APELLIDO MATERNO </label>
+                                    <input type="text" class="etiqueta form-control forma"  placeholder="ESCRIBE TU APELLIDO">
+                                </div>
+                            </form>
+                    </div>
+                </div>
+    
+                <div class="row mb-4">
+                    <div class="col-lg-4 col-md-4 col-ms-12">
                         <form>
-                            <div class="form-group" >
-                                <label class="etiqueta" for="formGroupExampleInput"> CANTIDAD DE ENGANCHE</label>
-                                <input type="text" class="etiqueta form-control forma" placeholder="$ 80.000.00">
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput"> EMAIL </label>
+                                <input type="email" class="etiqueta form-control forma"  placeholder="CORREO@EMAIL.COM.MX">
                             </div>
                         </form>
                     </div>
-                 <div class="col-lg-6 col-md-6 col-ms-12">
-                    <form>
-                        <div class="form-group">
-                            <label class="etiqueta oculta" for="formGroupExampleInput"> PLAZO </label>
-                            <select class="etiqueta custom-select custom-select-lg mb-3 forma">
-                                <option selected>SELECCIONA</option>
-                                <option value="1">12 MESES</option>
-                                <option value="2">24 MESES</option>
-                                <option value="3">48 MESES</option>
-                                <option value="3">72 MESES</option>
-                            </select>
-                        </div>
-                    </form>
-                 </div>
-            </div>
-
-        <div class="row mb-1 mt-4">
-                <div class="col-12 text-center">
-                    <span class="datos text-center" >Comentarios</span>
-                    <p>NOS IMPORTAN TUS COMENTARIOS</p>
+                    <div class="col-lg-4 col-md-4 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="titulo ml-1" for="formGroupExampleInput"> TELEFONO </label>
+                                <input type="email" class="etiqueta form-control forma"  placeholder="01 . 844 . 439 . 0654">
+                            </div>
+                        </form>
+                    </div>
                 </div>
-        </div>
-        <div class="row">
-                <div class="col">
-                       <form>
-                           <div class="form-group" >
-                               <label class="etiqueta" for="formGroupExampleInput"> ¿DUDAS? ¿COMENTARIOS? </label>
-                               <textarea class="form-control comentaios forma"  rows="8" placeholder="ESCRIBENOS"></textarea>
-                           </div>
-                       </form>
-                   </div>
-        </div>
+    
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-ms-12">
+                        <label class="titulo ml-1" for="formGroupExampleInput"> DESEO SER CONTACTADO POR </label>
+                    </div>
+                </div>
+    
+                <div class="row contactar">
+                    <div class="col-4">
+                        <form>
+                            <div class="form-group">
+                                <input type="button" id="bttelefono" class="etiqueta form-control forma contacto"  value=" 📞    TELEFONO">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <input type="button" id="btemail" class="etiqueta form-control forma contacto" value="✉️ EMAIL">
+                                </div>
+                            </form>
+                    </div>
+                    <div class="col-4">
+                            <form>
+                                <div class="form-group">
+                                    <input type="button" id="btambos" class="etiqueta form-control forma contacto" value="AMBOS">
+                                </div>
+                            </form>
+                    </div>
+                </div>
+    
+                <div class="row mb-4 mt-4">
+                    <div class="col-12 text-center">
+                        <h3 class="datos text-center">
+                            <span class="line-datos"> </span>
+                                Forma de Pago
+                            <span class="line-datos"> </span>        
+                        </h3>
+                         <p>PERSONALIZA TU COTIZACION </p>
+                    </div>
+                </div>
+                
+                <div class="row pago">
+    
+                        <div class="col-12">
+                                <form>
+                                    <div class="form-group" >
+                                        <label class="titulo ml-3" for="formGroupExampleInput"> ELIGE TU FORMA DE PAGO</label>
+                                    </div>
+                                </form>
+                        </div>
+    
+                        <div class="col-6">
+                            <form>
+                                <div class="form-group" >
+                                    <input type="button" id="contado" class="etiqueta form-control forma text-center contacto" value=" CONTADO">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-6">
+                                <form>
+                                    <div class="form-group">
+                                        
+                                        <input type="button" id="credito" class="etiqueta form-control forma text-center contacto" value="CREDITO">
+                                    </div>
+                                </form>
+                        </div>
+                </div>
+                <div class="row pago">
+                     <div class="col-lg-6 col-md-6 col-ms-12">
+                            <form>
+                                <div class="form-group" >
+                                    <label class="titulo ml-3" for="formGroupExampleInput"> CANTIDAD DE ENGANCHE</label>
+                                    <input id="enganche" type="text" class="etiqueta form-control forma" placeholder="$ 80.000.00">
+                                </div>
+                            </form>
+                        </div>
+                     <div class="col-lg-6 col-md-6 col-ms-12">
+                        <form>
+                            <div class="form-group">
+                                <label class="oculta titulo ml-3" for="formGroupExampleInput"> PLAZO </label>
+                                <select class="etiqueta custom-select custom-select-lg mb-3 forma">
+                                    <option selected>SELECCIONA</option>
+                                    <option value="1">12 MESES</option>
+                                    <option value="2">24 MESES</option>
+                                    <option value="3">48 MESES</option>
+                                    <option value="3">72 MESES</option>
+                                </select>
+                            </div>
+                        </form>
+                     </div>
+                </div>
+    
+            <div class="row mb-1 mt-4">
+                    <div class="col-12 text-center">
 
-        <div class="terminos mt-4">
-                <div class="form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="form-check-label etiqueta font " for="exampleCheck1">He leido y acepto el aviso de privacidad</label>
-                 </div>
-                 <div class="form-check mt-3">
-                        <input type="checkbox" class="form-check-input">
-                        <label class="form-check-label etiqueta font" for="exampleCheck1">No deseo recibir notificaciones</label>
-                        <button class="btenvio forma etiqueta" id="btenviar">ENVIAR</button>
-                 </div>
-        </div>
-
-        <div class="final"> 
-                <a href="#"> <p>@Fiat2019</p>  </a>
-                <p>Todos los derechos reservados</p>
-         </div>
-        </section>
-     </div>
+                            <h3 class="datos text-center">
+                                    <span class="line-datos"> </span>
+                                        Comentarios
+                                    <span class="line-datos"> </span>        
+                                </h3>
+                                 <p>NOS IMPORTAN TUS COMENTARIOS</p>
+                    </div>
+            </div>
+            <div class="row">
+                    <div class="col">
+                           <form>
+                               <div class="form-group" >
+                                   <label class="titulo" for="formGroupExampleInput"> ¿DUDAS? ¿COMENTARIOS? </label>
+                                   <textarea class="form-control comentarios forma etiqueta"  rows="8" placeholder="ESCRIBENOS"></textarea>
+                               </div>
+                           </form>
+                       </div>
+            </div>
+    
+            <div class="terminos mt-4">
+                  <div>
+                      <input type="checkbox" id="check1" >
+                      <label class="etiqueta checks" for="check1" >He leido y acepto el <a href="#" class="ancla"> aviso de privacidad</a> </label>
+                  </div>
+                <div>
+                    <input type="checkbox" id="check2">
+                    <label class="etiqueta checks" for="check2">No deseo recibir notificaciones</label>
+                    <button class="btenvio forma" id="btenviar">ENVIAR</button>
+                </div>
+                     
+                     
+            </div>
+    
+           
+    </section>
+</section>
+   
+</section>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="Marcos Vallejo"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="Marcos Vallejo"></script>
