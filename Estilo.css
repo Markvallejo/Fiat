@@ -300,9 +300,8 @@ input[type=checkbox] + label {
 }
  
 input[type=checkbox]:checked + .checks::before{
-    content: '\02713';
+    content: '\02714';
     font-size: 15px;
-    font-style: normal;
     color:  rgb(95, 91, 91);
 }
 
