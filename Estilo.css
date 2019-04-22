@@ -160,7 +160,12 @@ p{
 .inicial{
  margin-top: 55px;
 }
-
+.indice{
+    background: url('images/menu.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
 .forma{
     border: solid red 1px;
     border-radius: 0;
@@ -245,6 +250,7 @@ p{
     font-size: 11px;
     font-weight: bold;
     letter-spacing: 3px;
+    background: white;
 }
 .btenvio:hover{
  background: red;
