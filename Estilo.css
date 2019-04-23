@@ -161,7 +161,8 @@ p{
  margin-top: 55px;
 }
 .indice{
-    background: url('images/menu.png');
+    background: url('images/flecha.png');
+    background-size: 15px;
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
@@ -302,7 +303,7 @@ input[type=checkbox] + label {
 input[type=checkbox]:checked + .checks::before{
     content: '\02714';
     font-size: 15px;
-    color:  rgb(95, 91, 91);
+    color:  rgb(34, 32, 32);
 }
 
 footer{
