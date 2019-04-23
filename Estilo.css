@@ -182,9 +182,10 @@ p{
 }
 
 .etiqueta{
-    color: black;
+    color: rgb(43, 40, 40);
     height: 40px;
     font-size: 12px;
+    font-weight: 600;
     letter-spacing: 1.5px;
 }
 
@@ -979,7 +980,7 @@ font-size: 12px;
     } 
     input[type=checkbox]:checked + .checks::before{
         content: '\02714';
-        font-size: 13px;
+        font-size: 12px;
         color:  rgb(34, 32, 32);
     }  
 }
