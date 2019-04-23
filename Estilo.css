@@ -654,6 +654,11 @@ text-align: center;
 left: 130px;
 bottom: 20px;
 }
+.ancla{
+    color: #000;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
 .checks{
 letter-spacing: 0;
 font-size: 12px;
@@ -982,6 +987,11 @@ input[type=checkbox]:checked + .checks::before{
         left: 85px;
         bottom: 20px;
         font-size: 10px;
+    }
+    .ancla{
+        color: #000;
+        font-weight: bold;
+        text-decoration-line: underline;
     }
     .checks{
         letter-spacing: 0;
