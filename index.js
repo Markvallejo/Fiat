@@ -38,7 +38,6 @@ $enviar.addEventListener('click', (event) =>{
 
 $bttelefono.addEventListener('click', (event) => {
    $bttelefono.classList.toggle('success')
-   $bttelefono.classList.remove('bttelefono')
    select()
 })
 
