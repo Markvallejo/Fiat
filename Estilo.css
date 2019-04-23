@@ -510,7 +510,9 @@ margin-bottom: 12px;
 .menus{
 display: none;
 }
-
+#menu4{
+    display: inline;
+}
 #button{
 border-style: none;
 outline: none;
