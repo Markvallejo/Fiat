@@ -927,10 +927,6 @@ font-size: 12px;
         width: 95px; 
         height: 50px;
         font-size: 9px;
-        padding-top: 20px;
-        background-position-x: 40px;
-        background-position-y: 5px;
-        background-size: 10px;
         }
         
         #btemail{
@@ -939,9 +935,6 @@ font-size: 12px;
             font-size: 9px;
             padding-top: 20px;
             margin-left: -11px;
-            background-position-x: 40px;
-            background-position-y: 5px;
-            background-size: 15px;
         }
         #btambos{
             width: 95px;
@@ -983,5 +976,10 @@ font-size: 12px;
     .checks{
         letter-spacing: 0;
         font-size: 12px;
-    }   
+    } 
+    input[type=checkbox]:checked + .checks::before{
+        content: '\02714';
+        font-size: 13px;
+        color:  rgb(34, 32, 32);
+    }  
 }
