@@ -654,6 +654,11 @@ bottom: 20px;
 letter-spacing: 0;
 font-size: 12px;
 }
+input[type=checkbox]:checked + .checks::before{
+    content: '\02714';
+    font-size: 13px;
+    color:  rgb(34, 32, 32);
+}  
 }
 @media (max-width: 375px) { 
     #header{
@@ -980,7 +985,7 @@ font-size: 12px;
     } 
     input[type=checkbox]:checked + .checks::before{
         content: '\02714';
-        font-size: 12px;
+        font-size: 13px;
         color:  rgb(34, 32, 32);
     }  
 }
