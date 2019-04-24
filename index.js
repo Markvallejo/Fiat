@@ -12,6 +12,7 @@ const $credito = document.getElementById('credito')
 const $mail = document.getElementById('mail_w')
 const $phone = document.getElementById('phone_w')
 const $Img_telefono = document.getElementById('Img_telefono')
+const $Img_mail = document.getElementById('Img_mail')
 
 
 const $mover = document.getElementById('navbarSupportedContent')
@@ -51,6 +52,7 @@ $bttelefono.addEventListener('click', (event) => {
 $btemail.addEventListener('click', (event) => {
    $btemail.classList.toggle('success')
    $mail.classList.toggle('mail_w')
+   $mail.classList.toggle('ocultar')
    select()
 })
 
@@ -70,16 +72,18 @@ $btambos.addEventListener('click', (event) => {
     $bttelefono.classList.add('success')
     $btemail.classList.add('success')
     $mail.classList.add('mail_w')
-    $phone.classList.toggle('phone_w')
+    $mail.classList.remove('ocultar')
+    $phone.classList.add('phone_w')
     $Img_telefono.classList.add('ocultar')
    }
    else{
       $bttelefono.classList.remove('success')
       $btemail.classList.remove('success')
       $mail.classList.remove('mail_w')
+      $mail.classList.add('ocultar')
       $phone.classList.toggle('phone_w')
     $phone.classList.remove('ocultar')
-    $Img_telefono.classList.remove('ocultar')
+    $Img_telefono.classList.toggle('ocultar')
    }
   
 })
