@@ -487,6 +487,9 @@ footer{
     height: 210px; 
 }
 #menu4{
+    display: inline;
+}
+.menus{
     display: none;
 }
 .text-elegir{
