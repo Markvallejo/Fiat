@@ -399,7 +399,6 @@ footer{
    font-size: 12px;
 }
 }
-
 @media (max-width: 768px) { 
 .navbar-light .navbar-nav .nav-link {
     padding: 5px 30px;
@@ -469,7 +468,6 @@ footer{
     font-size: 12px;
 } 
 }
-
 @media (max-width: 746px) { 
 
 .navbar-light .navbar-nav .nav-link {
@@ -530,7 +528,6 @@ footer{
     font-size: 12px;
 } 
 }
-
 @media (max-width: 480px ) { 
 #header{
 width: 100%;
