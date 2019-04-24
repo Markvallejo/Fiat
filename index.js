@@ -88,7 +88,6 @@ $btambos.addEventListener('click', (event) => {
     $Img_telefono.classList.toggle('ocultar')
     $Img_mail.classList.remove('ocultar')
    }
-  
 })
 
 $contado.addEventListener('click', (event) => {

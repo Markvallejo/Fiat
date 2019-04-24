@@ -165,6 +165,8 @@ p{
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
+    background-origin: content-box;
+    padding-right: .75em;
 }
 .forma{
     border: solid rgb(204, 79, 63) 1px;
