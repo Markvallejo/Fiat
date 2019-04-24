@@ -181,8 +181,11 @@ p{
     font-family: 'Playfair Display';
     font-style: italic;
     font-weight: 700;
+    margin-top: 15px;
 }
-
+p{
+    margin-bottom: 15px;
+}
 .etiqueta{
     color: rgb(43, 40, 40);
     height: 40px;
@@ -194,7 +197,7 @@ p{
 .titulo{
     color: rgb(136, 129, 129);
     font-size: 12px;
-    margin: 15px;
+     margin-bottom: 1.5px;
 }
 
 #bttelefono{
