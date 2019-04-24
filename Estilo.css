@@ -300,10 +300,11 @@ p{
 }
 
 .checks{
-    margin-left: 40px;
+    margin-left: 30px;
     margin-bottom: .5px;
     color: rgb(43, 40, 40);
     height: 40px;
+    vertical-align: baseline;
     font-size: 12px;
     font-weight: normal;
 }
@@ -328,13 +329,13 @@ input[type=checkbox] + label {
     width: 22px;
     margin-right: 20px;
     position: absolute;
-    left: 0;  
+    left: 0; 
 }
  
 input[type=checkbox]:checked + .checks::before{
     content: '';
     background-image: url('images/check.svg');
-    background-size: 15px;
+    background-size: 14px;
     background-repeat: no-repeat;
     background-position: center;
 }
