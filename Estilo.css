@@ -191,7 +191,7 @@ p{
     height: 40px;
     font-size: 12px;
     font-weight: 600;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .titulo{
@@ -301,7 +301,11 @@ p{
 
 .checks{
     margin-left: 40px;
-    margin-bottom: 1px;
+    margin-bottom: .5px;
+    color: rgb(43, 40, 40);
+    height: 40px;
+    font-size: 12px;
+    font-weight: normal;
 }
 
 input[type=checkbox] {
